@@ -1,0 +1,97 @@
+.slike{
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+
+
+.Introduction__background {
+  color: #fff;
+  padding: 16px 0;
+}
+
+.background_r {
+  align-items: center;
+}
+
+.r {
+  display: flex;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.col {
+
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.background_wr {
+  
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.gornji{
+  color: #6681fa;
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: 999;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  
+}
+
+.glavni_naslov{
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
+}
+
+.black {
+  color: #000000;
+}
+
+.blackPozadina {
+  background-color: #000000;
+}
+
+.donji_naslov {
+  
+  max-width: 10000px;
+  margin-bottom: 11px;
+  font-size: 18px;
+  line-height: 70px;
+}
+.white{
+  color: #f7f8fa;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .cont
+   {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 10000px) {
+  .home__hero-text-wrapper {
+    padding-bottom: 65px;
+  }
+
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}

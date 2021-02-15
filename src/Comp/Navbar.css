@@ -1,0 +1,154 @@
+.NB {
+    background: #000000;
+    height: 78px;
+
+    font-size: 18px;
+    top: 0;
+    z-index: 100;
+
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .NB_cont {
+    display: flex;
+    justify-content: space-between;
+
+    height: 78px;
+   
+  }
+  
+  .cont {
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    width: 100%;
+
+    padding-right: 50px;
+    padding-left: 50px;
+    max-width: 1300px;
+   
+  }
+  .NB_item {
+    height: 82px;
+    border-bottom: 1px solid transparent;
+    width: 120%;
+  }
+  
+  .NB_item:hover {
+    border-bottom: 1px solid #6681fa;
+  }
+  
+  
+  .NB_logo {
+    justify-self: start;
+    font-size: 24px;
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+   
+    
+    
+  }
+  
+ 
+  .NB_menu {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    justify-content: end;
+  }
+  
+ 
+  .NB_links {
+    color: #ffffff;
+    display: flex;
+
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 15px;
+    
+    height: 100%;
+  }
+
+  .NB_links:hover {
+    color: #6681fa;
+  }
+  
+  .BN_icon {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 1000px){
+
+    
+    .BN_icon {
+      display: block;
+      position: absolute;
+
+      top: 0;
+      right: 0;
+
+      transform: translate(-130%, 50%);
+      font-size: 35px;
+      
+    }
+   
+
+    .NB_item:hover {
+      border: none;
+    }
+  
+    .NB_menu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 78px; left: -120%;
+      
+      width: 100%;
+      height: 650px;
+      font-size: 35px;
+      
+    }
+
+    .NB_links:hover {
+      color: #6681fa;
+      
+      transform: scale(1.5);
+
+     
+     
+    }
+  
+    
+  
+    .NB_menu.active {
+      background: #181818;
+      left: 0;
+      z-index: 1;
+    }
+  
+    .NB_links {
+      display: block;
+      padding: 100px;
+      width: 100%;
+      
+      
+    }
+  
+    
+  
+    .NB_logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(19%, 87%);
+    }
+  
+  }
