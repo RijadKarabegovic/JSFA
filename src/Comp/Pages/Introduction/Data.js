@@ -1,5 +1,18 @@
+import slk1 from "../../../slike/slike1.png";
+import slk2 from "../../../slike/slike2.png";
+import slk3 from "../../../slike/slike3.png";
+import slk4 from "../../../slike/slike4.png";
+import slk5 from "../../../slike/slike5.png";
+
+
 
 export const Obj1 = {
+hasCover:true,
+
+  
+};
+
+export const Obj2 = {
   svijetlaPozadina: false,
   svijetliTekst: true,
   svijetliTekstDeskripcija: true,
@@ -14,7 +27,7 @@ export const Obj1 = {
 
   };
 
-export const Obj2 = {
+export const Obj3 = {
  
   svijetlaPozadina: true,
   svijetliTekst: false,
@@ -38,7 +51,7 @@ export const Obj2 = {
   tekst15: 'You can put the content label anyplace in the documentation of html.',
 };
 
-export const Obj3 = {
+export const Obj4 = {
   svijetlaPozadina: false,
   svijetliTekst: true,
   svijetliTekstDeskripcija: true,
@@ -51,7 +64,6 @@ export const Obj3 = {
   tekst5:'We can likewise utilize standard HTML markup language to tweak the appearance text in the output: ',
   slika1:'',
   tekst6: 'document.write("<h1>Hello World!</h1>"); ',
- 
   tekst14:'Important to know!',
   slika10:'',
   tekst15: 'document.write() ought to be utilized uniquely for testing.',
@@ -59,7 +71,7 @@ export const Obj3 = {
 
   ,};
 
-export const Obj4 = {
+export const Obj5 = {
  
   svijetlaPozadina: true,
   svijetliTekst: false,
@@ -94,7 +106,7 @@ export const Obj4 = {
   slika11:'',
 };
 
-export const Obj5= {
+export const Obj6= {
   svijetlaPozadina: false,
   svijetliTekst: true,
   svijetliTekstDeskripcija: true,
@@ -111,7 +123,7 @@ export const Obj5= {
   tekst7:"/This is a comment ",
   slika3:"",
   tekst8:'alert("This is the manner by which you will make an alert!");' ,
-  slika4:"slike/slike1.png",
+  slika4:slk1,
   tekst9:"Yet, why compose code that is never going to be executed. Isn't that an exercise in futility? ",
   slika5:"",
   tekst10:"Not under any condition! comments are a smart thought, particularly ones identifying with huge functions, as they help make our code more comprehensible for other people. So be thoughtful, and comment as much as you can! ",
@@ -121,41 +133,6 @@ export const Obj5= {
   slika11:''
 ,};
 
-  
-export const Obj6= {
-  svijetlaPozadina:true ,
-  svijetliTekst:  false,
-  svijetliTekstDeskripcija:  false,
-  gornji: 'Comments ',
-  glavni_naslov: 'JavaScript Comments',
-  tekst1:"Extraordinary stuff! You will soon be a variable expert. ",
-  tekst2:"Alright, we should discuss comments in JavaScript.",
-  tekst3:"So we think about statements and they are the directions inside our program that get 'executed' when the program runs. ",
-  tekst4:'However! Not all JavaScript explanations are "executed". ',
-  tekst5:"Any code after double slash, or between/* and */, is treated as a remark, and will be overlooked, and not executed. ",
-  slika1:"",
-  tekst6:"To compose a Single line remark we utilize twofold slices. Like this:",
-  slika2:"",
-  tekst7:"/This is a comment ",
-  slika3:"",
-  tekst8:'alert("This is the manner by which you will make an alert!");' ,
-  slika4:"slike/slike1.png",
-  tekst9:"Yet, why compose code that is never going to be executed. Isn't that an exercise in futility? ",
-  slika5:"",
-  tekst10:"Not under any condition! comments are a smart thought, particularly ones identifying with huge functions, as they help make our code more comprehensible for other people. So be thoughtful, and comment as much as you can! ",
-  slika6:"",
-  tekst11:"",
-  slika7:"",
-  tekst12:"",
-  slika8:"",
-  tekst13:"",
-  slika9:'',
-  tekst14:"Important to know!",
-  slika10:'',
-  tekst15:"alert() is utilized to make a message box.",
-  slika11:''
-
-  ,};
 
 export const Obj7= {
   svijetlaPozadina: false,
@@ -330,7 +307,7 @@ export const Obj7= {
     tekst7:'Consider the possibility that we need to utilize cites inside a string however.',
     slika3:'',
     tekst8:'Don not worry about it! You can utilize cites inside a string, as long as they do not coordinate the statements encasing the actual string. Look at this: ',
-    slika4:'slike/slike4.png',
+    slika4:slk4,
     tekst9:'  ',
     slika5:'',
     tekst10:'',
@@ -358,11 +335,11 @@ export const Obj7= {
     tekst3:" ",
     tekst4:"",
     tekst5:"",
-    slika1:"slike/slike5.png",
+    slika1:slk5,
     tekst6:"Result: ",
-    slika2:"slike/slike2.png",
+    slika2:slk2,
     tekst7:"However, the departure character (backslash) isn't only for cites, it works when you need to put other extraordinary characters inside strings as well! ",
-    slika3:"slike/slike3.png",
+    slika3:slk3,
     tekst8:"",
     slika4:"",
     tekst9:"",

@@ -1,4 +1,4 @@
-
+import slk19 from "../../../slike/slike19.png";
 export const Obj1 = {
     svijetlaPozadina: false,
     svijetliTekst: true,
@@ -16,7 +16,7 @@ export const Obj1 = {
     tekst7:' favColor: "green", height: 183',
     slika3:"",
     tekst8:"};",
-    slika4:"slike/slike19.png",
+    slika4:slk19,
     tekst9:"", 
     slika5:"",
     tekst10:"",
@@ -153,7 +153,7 @@ export const Obj1 = {
     tekst7:'var Samir = new person("Samir", 190); ',
     slika3:"",
     tekst8: "Access the objects's properties by utilizing the spot sentence structure, as we did previously."  ,
-    slika4:"slike/slike19.png",
+    slika4:"",
     tekst9:"Object Initialization",
     slika5:"",
     tekst10:"Utilize the article strict or initializer grammar to make single items. ",

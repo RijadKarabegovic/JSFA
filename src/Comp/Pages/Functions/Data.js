@@ -1,3 +1,10 @@
+import slk13 from "../../../slike/slike13.png";
+import slk14 from "../../../slike/slike14.png";
+import slk15 from "../../../slike/slike15.png";
+import slk16 from "../../../slike/slike16.png";
+import slk17 from "../../../slike/slike17.png";
+import slk18 from "../../../slike/slike18.png";
+
 
 export const Obj1 = {
     svijetlaPozadina: false,
@@ -365,13 +372,13 @@ export const Obj1 = {
     tekst6:"Example:",
     slika2:"",
     tekst7:'alert("Do you truly need to leave this page?");',
-    slika3:"slike/slike13",
+    slika3:slk13,
     tekst8:'Result: ',
     slika4:"",
     tekst9:"To show line breaks inside a popup box, utilize an oblique punctuation line followed by the character n.  ",
     slika5:"",
     tekst10:'alert("Hello\nHow are you?");',
-    slika6:"slike/slike14.png",
+    slika6:slk14,
     tekst11:'',
     slika7:"",
     tekst12:" ",
@@ -409,57 +416,23 @@ export const Obj1 = {
     tekst10:'else { alert("Thanks for staying with us"); }',
     slika6:'',
     tekst11:'Result:',
-    slika7:'slike/slike16.png',
+    slika7:slk16,
     tekst12: 'The result when the user clicks OK:',
-    slika8:'slike/slike17.png',
+    slika8:slk17,
     tekst13:'The result when the user clicks Cancel: ',
-    slika9:'slike/slike18.png',
+    slika9:slk18,
     tekst14:'Important to know!',
     slika10:'',
     tekst15: "Try not to abuse this strategy, since it likewise keeps the client from getting to different pieces of the page until the crate is shut.",
     slika11:'',
   };
 
+ 
   export const Obj13 = {
+   
     svijetlaPozadina: false,
     svijetliTekst: true,
     svijetliTekstDeskripcija: true,
-    gornji: 'Functions ',
-    glavni_naslov: 'The Alert Box',
-    tekst1:"JavaScript offers three sorts of popup boxes, the Alert, Prompt, and Confirm boxes. ",
-    tekst2:"An alarm box is utilized when you need to guarantee that data breaks through to the client. ",
-    tekst3:"At the point when an alarm put away pops, the client should click OK to continue. ",
-    tekst4:'The alarm work takes a solitary boundary, which is the content shown in the popup box. ',
-    tekst5:'',
-    slika1:"",
-    tekst6:"Example:",
-    slika2:"",
-    tekst7:'alert("Do you truly need to leave this page?");',
-    slika3:"slike/slike13.png",
-    tekst8:'Result: ',
-    slika4:"",
-    tekst9:"To show line breaks inside a popup box, utilize an oblique punctuation line followed by the character n.  ",
-    slika5:"",
-    tekst10:'alert("Hello\nHow are you?");',
-    slika6:"slike/slike14.png",
-    tekst11:'',
-    slika7:"",
-    tekst12:" ",
-    slika8:"",
-    tekst13:' ',
-    slika9:'',
-    tekst14:"Important to know!",
-    slika10:'',
-    tekst15:"Be cautious when utilizing alert boxes, as the client can keep utilizing the page exclusively in the wake of clicking OK.",
-    slika11:''
-
-    ,};
-  
-  export const Obj14 = {
-   
-    svijetlaPozadina: true,
-    svijetliTekst: false,
-    svijetliTekstDeskripcija: false,
     gornji: 'Functions',
     glavni_naslov: 'Prompt Box',
     tekst1:'A brief box is regularly used to have the client input an incentive prior to entering a page. ',
@@ -477,7 +450,7 @@ export const Obj1 = {
     tekst9:'alert(user);',
     slika5:'',
     tekst10:'The prompt shows up as: ',
-    slika6:'slike/slike15.png',
+    slika6:slk15,
     tekst11:'',
     slika7:'',
     tekst12: '',

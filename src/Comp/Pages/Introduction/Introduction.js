@@ -20,6 +20,7 @@ function Introduction() {
       <Background {...Obj12} />
       <Background {...Obj13} />
       <Background {...Obj14} />
+      
     </>
   );
 }

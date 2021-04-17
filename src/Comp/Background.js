@@ -1,10 +1,10 @@
-
-
 import React from 'react';
 import './Background.css';
-import { Link } from 'react-router-dom';
+
 
 function Background({
+  cover,
+  hasCover,
   alt,
   svijetlaPozadina,
   gornji,
@@ -41,6 +41,9 @@ function Background({
 }) {
   return (
     <>
+    <div> <div  className={ hasCover ? 'Cover' : 'notCover' }>
+                {cover}
+                </div></div>
       <div className={svijetlaPozadina ? 'Introduction_background' : 'Introduction_background blackPozadina'}>
         <div className='cont'>
             <div className='col'>
@@ -49,6 +52,7 @@ function Background({
                 <h1 className={svijetliTekst ? 'glavni_naslov' : 'glavni_naslov black'}>
                   {glavni_naslov}
                 </h1>
+                
                 <p
                   className={
                     svijetliTekstDeskripcija ? 'donji_naslov white': 'donji_naslov black' }>
@@ -59,6 +63,7 @@ function Background({
                     svijetliTekstDeskripcija ? 'donji_naslov white': 'donji_naslov black' }>
                   {tekst2}
                 </p>
+                
                 <p
                   className={
                     svijetliTekstDeskripcija ? 'donji_naslov white': 'donji_naslov black' }>
@@ -71,10 +76,12 @@ function Background({
                 </p>
                 <p
                   className={
-                    svijetliTekstDeskripcija ? 'donji_naslov white': 'donji_naslov black' }>
+                    svijetliTekstDeskripcija ? 'donji_naslov white': 'donji_naslov black'}>
                   {tekst5}
                 </p>
-                
+
+               
+
                 <img src={slika1} alt={alt} className='slike' />
               
                 <p
@@ -96,6 +103,7 @@ function Background({
                     svijetliTekstDeskripcija ? 'donji_naslov white': 'donji_naslov black' }>
                   {tekst8}
                 </p>
+                
                 <img src={slika4} alt={alt} className='slike' />
                 <p
                   className={
@@ -103,6 +111,7 @@ function Background({
                   {tekst9}
                 </p>
                 <img src={slika5} alt={alt} className='slike' />
+               
                 <p
                   className={
                     svijetliTekstDeskripcija ? 'donji_naslov white': 'donji_naslov black' }>
@@ -141,6 +150,7 @@ function Background({
                   <em>{tekst15}</em>
                 </p>
                 <img src={slika11} alt={alt} className='slike' />
+              
 
               </div>
             </div>

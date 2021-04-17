@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { SiJavascript } from 'react-icons/si';
+
 import { VscThreeBars } from 'react-icons/vsc'; 
 import { DiJavascript1 } from 'react-icons/di';
+import { IoWomanSharp } from 'react-icons/io5';
+
 
 
 
@@ -22,10 +24,10 @@ function Navbar() {
         <nav className='NB'>
           <div className='NB_cont cont'>
             <Link to='/' className='NB_logo' onClick={closeMobileMenu}>
-              <SiJavascript className='NB_icon' style={{
+              <IoWomanSharp className='NB_icon' style={{
               
             }} />
-              JavaScript for Aunties
+            JavaScript for Aunties
             </Link>
             <div className='BN_icon' onClick={handleClick} style={{
               color: '#ffffff'

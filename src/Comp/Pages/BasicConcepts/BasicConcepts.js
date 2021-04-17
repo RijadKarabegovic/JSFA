@@ -1,6 +1,6 @@
 import React from 'react';
 import Background from '../../Background';
-import { Obj1, Obj2, Obj3, Obj4, Obj5, Obj6, Obj7, Obj8, Obj9, Obj10, Obj11, Obj12, Obj13, Obj14} from './Data';
+import { Obj1, Obj2, Obj3, Obj4, Obj5, Obj6, Obj7, Obj8, Obj9, Obj10, Obj11, Obj12} from './Data';
 
 
 function BasicConcepts() {

@@ -1,3 +1,9 @@
+import slk6 from "../../../slike/slike6.png";
+import slk7 from "../../../slike/slike7.png";
+import slk9 from "../../../slike/slike9.png";
+import slk10 from "../../../slike/slike10.png";
+import slk11 from "../../../slike/slike11.png";
+import slk12 from "../../../slike/slike12.png";
 
 export const Obj1 = {
   svijetlaPozadina: false,
@@ -9,9 +15,9 @@ export const Obj1 = {
   tekst2:'eneath you can see the expansion administrator (+) in real life deciding the amount of two numbers. ',
   tekst3:'',
   tekst4:' ',
-  slika1:'slike/slike6.png',
+  slika1:slk6,
   tekst6: 'You can add as numerous numbers or factors together as you need or need to. ',
-  slika2:'slike/slike7.png',
+  slika2:slk7,
   tekst5:' ',
   tekst14:'Imperative to know! ',
   slika10:'',
@@ -59,7 +65,7 @@ export const Obj3 = {
   tekst6: 'Decrement --',
   tekst7: 'The decrement administrator diminishes the numeric estimation of its operand by 1. At the point when put before the operand, it will return the decremented esteem. At the point when put after the operand, it will return the first worth and afterward decrements the operand. ',
   tekst8:'A few examples: ',
-  slika4:"slike/slike9.png",
+  slika4:slk9,
  
   tekst14:'Important to know!',
   slika10:'',
@@ -131,7 +137,7 @@ export const Obj6= {
   tekst1:"Next in an arrangement intelligently named administrators are... Task administrators! ",
   tekst2:"What's more, you got it, we utilize these folks to dole out qualities to JavaScript factors. ",
  
-  slika1:"slike/slike10.png",
+  slika1:slk10,
  
   tekst14:"Important to know!",
   slika10:'',
@@ -166,7 +172,7 @@ export const Obj7= {
     gornji: 'Basic concepts ',
     glavni_naslov: 'Comparison Operators',
     tekst1:'Look at this table to see a breakdown of correlation administrators. ',
-    slika1:'slike/slike11.png',
+    slika1:slk11,
     tekst14:'Important to know!',
     slika10:'',
     tekst15: 'One important thing to remember when we use operators, is that they only work when they’re comparing the same data type; numbers with numbers, strings with strings, you get the idea.',
@@ -181,7 +187,7 @@ export const Obj7= {
     glavni_naslov: 'Logical Operators',
     tekst1:"Logical operators, otherwise called Boolean Operators, assess an articulation and return true or false. ",
     tekst2:"Look at the table beneath to see more subtleties on the legitimate administrators (AND, OR, NOT). ",
-    slike1:"slike/slike12.png",
+    slike1:slk12,
     tekst14:"Important to know!",
     tekst15:'You can check a wide range of information; examination administrators consistently return true or false. ',
     };
